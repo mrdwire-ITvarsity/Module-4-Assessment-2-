@@ -56,7 +56,7 @@ body {
 /*PUZZLE-GRID */
 /*======================================================================================================================================*/
 
-.puzzle-grid {
+/*.puzzle-grid {
 
     background: -webkit-gradient(linear, left top, right bottom, from(rgba(0, 29, 255, 0.75)), to(rgba(11, 1, 1, 0.75)));
 
@@ -67,7 +67,7 @@ body {
 
     margin-left: 350px;
     margin-bottom: 50px;
-}
+}*/
 
 /*======================================================================================================================================*/
 /*PUZZLE-GRID-PIECES */
@@ -76,62 +76,65 @@ body {
 /*===============================GRID-1 ================================= */
 
 #grid1-1 {
-    position: relative;
-    left: 0;
-    top: 0;
+    position: absolute;
+    left: 150px;
+    top: 350px;
+    
 }
 
 #grid1-2 {
-    position: relative;
-    left: -6px;
-    top: 0;
+    position: absolute;
+    left: 349px;
+    top: 350px;
 }
 
 #grid1-3 {
-    position: relative;
-    right: 11px;
-    top: 0;
+    position: absolute;
+    left: 548px;
+    top: 350px;
 
 }
 
 /*===============================GRID-2 ================================= */
 
 #grid2-1 {
-    position: relative;
-    left: -612px;
-    top: 200px;
+    position: absolute;
+    left: 150px;
+    top: 549px;
 }
 
 #grid2-2 {
-    position: relative;
-    left: 199px;
-    top: -4px;
+    position: absolute;
+    left: 349px;
+    top: 549px;
 }
 
 #grid2-3 {
-    position: relative;
-    left: 194px;
-    top: -4px;
+    position: absolute;
+    left: 548px;
+    top: 549px;
 }
 
 /*===============================GRID-3 ================================= */
 
 #grid3-1 {
-    position: relative;
-    left: -408px;
-    top: 196px;
+    position: absolute;
+    left: 150px;
+    top: 747px;
 }
 
 #grid3-2 {
-    position: relative;
-    left: -412px;
-    top: 196px;
+    position: absolute;
+    left: 349px;
+    top: 747px;
 }
 
 #grid3-3 {
-    position: relative;
-    left: 399px;
-    top: -8px;
+    position: absolute;
+    left: 548px;
+    top: 747px;
+    
+    padding-bottom: 50px;
 }
 
 /*======================================================================================================================================*/
@@ -142,43 +145,39 @@ body {
 
 #img1-1-draggable {
     position: absolute;
-    -webkit-transform: rotate(45deg) scale(0.90);
-    transform: rotate(45deg) scale(0.90);
-    right: 400px;
+    transform: rotate(45deg) scale(0.70);
+    right: 50px;
 
 }
 
 #img1-2-draggable {
     position: absolute;
-    -webkit-transform: rotate(90deg) scale(0.90);
-    transform: rotate(90deg) scale(0.90);
+    transform: rotate(90deg) scale(0.70);
     top: 650px;
     right: 20px;
 }
 
 #img1-3-draggable {
     position: absolute;
-    -webkit-transform: rotate(195deg) scale(0.90);
-    transform: rotate(195deg) scale(0.90);
-    bottom: -150px;
-    left: 20px;
+    transform: rotate(195deg) scale(0.70);
+    right: 70px;
+    top: 410px;
+    
 }
 
 /*===============================GRID-2 ================================= */
 
 #img2-1-draggable {
     position: absolute;
-    -webkit-transform: rotate(270deg) scale(0.9);
-    transform: rotate(270deg) scale(0.9);
-    top: 250px;
+    transform: rotate(270deg) scale(0.7);
+    top: 450px;
     right: 0;
 
 }
 
 #img2-2-draggable {
     position: absolute;
-    -webkit-transform: rotate(70deg) scale(0.9);
-    transform: rotate(70deg) scale(0.9);
+    transform: rotate(70deg) scale(0.7);
     bottom: -500px;
     left: 20px;
 
@@ -186,10 +185,9 @@ body {
 
 #img2-3-draggable {
     position: absolute;
-    -webkit-transform: scale(0.9);
-    transform: scale(0.9);
-    top: 270px;
-    left: 20px;
+    transform: scale(0.7);
+    bottom: -500px;
+    left: 150px;
 
 }
 
@@ -197,17 +195,15 @@ body {
 
 #img3-1-draggable {
     position: absolute;
-    -webkit-transform: rotate(6deg) scale(0.9);
-    transform: rotate(6deg) scale(0.9);
-    bottom: -20px;
+    transform: rotate(6deg) scale(0.7);
+    bottom: -220px;
     right: 0;
 
 }
 
 #img3-2-draggable {
     position: absolute;
-    -webkit-transform: scale(0.9);
-    transform: scale(0.9);
+    transform: scale(0.7);
     bottom: -500px;
     left: 350px;
 
@@ -215,10 +211,10 @@ body {
 
 #img3-3-draggable {
     position: absolute;
-    -webkit-transform: rotate(95deg) scale(0.9);
-    transform: rotate(95deg) scale(0.9);
+
+    transform: rotate(95deg) scale(0.7);
     bottom: -500px;
-    right: 50px;
+    right: 270px;
 
 }
 
